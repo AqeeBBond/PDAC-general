@@ -1,0 +1,22 @@
+.content1 {
+  background-color: steelblue;
+  width: 300px;
+  padding: 10px 20px;
+  border: solid red;
+  margin: 40px 20px 30px;
+  border-radius: 100px;
+}
+#div2 {
+  border: 10px dotted black;
+  border-radius: 80px 50px 25px 5px;
+}
+#div3 {
+  border: 10px dashed rgb(5, 71, 5);
+  border-radius: 10px 40px;
+}
+#div4 {
+  border: 10px double rgb(0, 197, 16);
+  border-radius: 40px 10px;
+  background-color: rgb(212, 171, 171);
+}
+

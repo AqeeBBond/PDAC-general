@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function getDetails(){
+        var name = document.getElementById("name").value
+        var loc = document.getElementById("location").value
+        var city = document.getElementById("city").value
+        var add = name + ","+ loc + "," + city;
+        document.getElementById("ful").value= add;
+    }
+</script>
+<body>
+    <input type="text" id="name">
+    <input type="text" id="location">
+    <input type="text" id="city">
+    <button onclick="getDetails()">click</button>
+    <input type="text" id="ful">
+    
+</body>
+</html>

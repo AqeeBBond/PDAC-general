@@ -1,0 +1,13 @@
+#heading1 {
+  background-color: aqua;
+}
+#heading2 {
+  color: rgb(250, 12, 100);
+}
+#heading3 {
+  color: rgba(250, 12, 100, 0.2);
+}
+#heading4 {
+  color: fuchsia;
+  background-color: black;
+}

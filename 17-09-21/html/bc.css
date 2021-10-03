@@ -1,0 +1,88 @@
+
+nav {
+  background-color: rgba(187, 12, 99, 0.8);
+  padding: 15px;
+  margin: 22px;
+  /* text-indent: 200px; */
+  border-radius: 50px;
+  text-align: center;
+  position: sticky;
+  top: 20px;  
+}
+a {
+  text-decoration: none;
+  color: rgb(13, 14, 48);
+  padding: 20px 35px 20px 35px;
+  font-size: x-large;
+  margin: 5px;
+}
+a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 1px 2px 300px;
+  box-shadow: 10px 5px 10px indigo;
+}
+i{
+    margin-right: 5px;
+    color: blue;
+}
+body{
+    background-image: url(Another.png);
+    background-attachment: fixed;
+    background-position: center 100%;
+    background-size: cover;
+}
+.div1{
+    background-image: url(purple.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-position: center 100%;
+    box-shadow: 50px 50px 100px black;
+    margin: 20px;
+}
+p{
+    margin: 20px;
+    padding: 20px 10px;
+}
+h1{
+    padding: 20px 20px;
+    text-shadow: 300px 1px  white;
+}
+.div2{
+    background-image: url(cool-background.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-position: center 100%;
+    box-shadow: 50px 50px 100px black;
+    margin: 20px;
+}
+.droplist-1{
+  display: none;
+  position: absolute;
+  padding: 50px;
+  width: 180px;
+}
+.dropdown-1 a{
+  display: block;
+}
+.dropdown-1{
+  display: inline-block;
+}
+.dropdow-1:hover .droplist-1{
+  display: block;
+}
+.droplist-2{
+  display: none;
+  position: absolute;
+  padding: 50px;
+  width: 180px;
+}
+.dropdown-2 a{
+  display: block;
+}
+.dropdown-2{
+  display: inline-block;
+}
+.dropdow-2:hover .droplist-1{
+  display: block;
+}

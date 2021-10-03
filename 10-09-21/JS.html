@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getFullName(){
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+            document.getElementById("fullname").value = fname + " " + lname;
+        }
+        </script>
+</head>
+<body>
+    <form action="">
+        <label for="fname">First Name :</label>
+        <input id="fname" type="text">
+
+        <label for="lname">Last Name :</label>
+        <input id="lname" type="text">
+        
+        <Input type="button" value="Full Name"; onclick="getFullName()"></Input>
+        <hr>
+        <label for="fullname">Full Name :</label>
+        <input type="text" name="fullname" id="fullname">
+    </form> 
+</body>
+</html>
+
+<!--
+    Object {} = it is having keys and values ;
+    array [] = it is having values with indices ;
+-->
+
+
+<!-- // var a = 10;
+// var b = "name";
+// var c = { name : "Khan" , age : "18"}
+// var d = [ 'Hi' , 'bye' , 'hello']
+// var e = null
+// var f = undefined
+// var g = -->
+
+
+
+
+<!-- <script>
+    function getFullName(a){
+        console.log("called !" + a);
+    }
+</script>
+<form action="">
+     First Name : <input id="fname" type="text">
+     Last Name : <input id="lname" type="text">
+     <Input type="button" value="Full Name"; onclick="getFullName('sachin')"></Input>
+</form> -->

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width0, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="Aqib.js"></script> -->
+  </head>
+  <script>
+      function getDetils(){
+    var name = document.getElementById("name").value;
+    var locat = document.getElementById("locat").value;
+    var city = document.getElementById("city").value;
+    var address = name + " ," + locat +" ," + city;
+    document.getElementById("fullAddress").value = address;
+    
+    
+}
+  </script>
+  <body>
+    <form>
+      <p>Name</p>
+      <input type="text" id="name" />
+      <p>Location</p>
+      <input type="text"  id="locat" />
+      <p>City</p>
+      <input type="text"  id="city" />
+      <button onclick="getDetils()">Submit!</button>
+      <h2>Name with Address!</h2>
+      <input type="text" id="fullAddress"/>
+    </form>
+  </body>
+</html>

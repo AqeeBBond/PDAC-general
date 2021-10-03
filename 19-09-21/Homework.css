@@ -1,0 +1,32 @@
+h1{
+    color: rgb(10, 94, 59)
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 300%;
+    text-shadow: 3px 2px rgba(189, 17, 17, 0.226);
+}
+h2{
+    margin-left: 30px;
+    text-decoration: underline;
+}
+img{
+    width: auto;
+    float: upright;
+    margin-right: 100px;
+    /* border: 1px solid; */
+    padding: 10px;
+    text-shadow;: 5px 10px #888888
+}
+p{
+    text-size: 30px;
+}
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 80%;
+  }
+  ul{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }

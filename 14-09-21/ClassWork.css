@@ -1,0 +1,37 @@
+nav {
+  background-color: rgb(153, 151, 163);
+  padding: 15px;
+  margin: 15px;
+  text-indent: 200px;
+}
+a {
+  text-decoration: none;
+  color: rgb(13, 14, 48);
+  padding: 15px;
+  font-size: x-large;
+}
+a:hover {
+  background-color: black;
+  color: white;
+  
+}
+h1 {
+  letter-spacing: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+.one {
+  background-color: rgb(170, 206, 128);
+  text-align: justify;
+
+
+}
+img {
+  float: right;
+  height: 250px;
+  width: 450px;
+}
